@@ -56,19 +56,16 @@
 
 .header{
     padding-top: 18px;
-}
-
-.header__items{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header__item--logo{
+.header__logo{
     margin-left: -32px;
 }
 
-.header__item--button{
+.header__button{
     display: flex;
     width: 40px;
     height: 40px;
@@ -76,11 +73,11 @@
     transition: all 0.5s linear;
 }
 
-.main{
+.menu{
     padding-top: 50px;
     margin-bottom:268px;
 }
-.nav__items{
+.menu__items{
     display: flex;
     flex-direction: column;
     gap: 38px;
@@ -88,19 +85,19 @@
     font-size: 16px;
 }
 
-.nav__item{
+.menu__item{
     position: relative;
 }
-.nav__item:hover{
+.menu__item:hover{
     opacity: 0.5;
 }
 
-.nav__link{
+.menu__link{
     transition: color 0.5s linear;
     font-weight: bold;
 }
 
-.nav__link:focus::before{
+.menu__link:focus::before{
     content: '';
     position: absolute;
     left: -24px;
@@ -132,6 +129,7 @@
 .contacts{
     display: flex;
     flex-direction: column;
+    font-style: normal;
     gap: 12px;
     margin-bottom: 40px;
 }
